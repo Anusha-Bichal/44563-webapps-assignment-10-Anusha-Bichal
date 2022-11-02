@@ -10,6 +10,6 @@ block content
             div.col-sm-2(onclick=`buy(${index})`) Fish Name: #{item["fish_name"]}  <br>  Fish size: #{item["fish_size"]} <br> Fish type: #{item["fish_type"]} 
   script.
       function buy(index){
-         alert("you purchased item "+index)
+         alert("you purchased item "+(index+1))
       }
   
